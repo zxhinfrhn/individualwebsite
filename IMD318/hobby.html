@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+        body {
+            background: url('background 2.jpg');
+            background-size: cover;
+        }
+        .title-section {
+            text-align: center;
+            width: 100%;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 10px;
+        }
+       h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .hobby-word {
+            text-align: center;
+            font-size: 2rem;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            max-width: 500px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
+            max-width: 700px;
+            width: 70%;
+            margin-top: 600px;
+        }
+        .image-container figure {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        .image-container figure:hover img {
+            transform: scale(1.1);
+        }
+        .image-container figcaption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            font-size: 1.2rem;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .image-container figure:hover figcaption {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-section">
+        <h1>Interest</h1>
+    </div>
+    <video width="640" height="360" controls>
+        <source src="10.mp4" type="video/mp4">
+    </video>
+    <div class="hobby-word">
+        <p><strong>Playing games, sweet treats, pink things, and drawing her favorite person are few of the many things she likes..</p>
+    </div>
+   <div class="image-container">
+  <figure>
+    <img src="game.jpg" alt="Game" width="150" height="150">
+    <figcaption>Gaming</figcaption>
+  </figure>
+  <figure>
+    <img src="pink.jpg" alt="Pink" width="150" height="150">
+    <figcaption>Pink</figcaption>
+  </figure>
+  <figure>
+    <img src="ice cream.jpg" alt="Dessert" width="150" height="150">
+    <figcaption>Dessert</figcaption>
+  </figure>
+  <figure>
+    <img src="draw.jpg" alt="Drawing" width="150" height="150">
+    <figcaption>Drawing</figcaption>
+  </figure>
+</div>
+
+</body>
+</html>

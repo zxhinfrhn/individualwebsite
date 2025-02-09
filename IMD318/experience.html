@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('background 2.jpg');
+            color: #fff;
+        }
+        .experience-container {
+            background: rgba(0, 0, 0, 0.8);
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .experience-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .experience-header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            color: #74b9ff;
+        }
+
+        .experience-header p {
+            font-size: 1.2rem;
+            margin: 5px 0;
+            color: #ddd;
+        }
+
+        /* Photo Grid */
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .photo-card {
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .photo-card img {
+            width: 50%;
+            height:inherit;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .photo-card h3 {
+            margin: 10px 0 5px;
+            font-size: 1.5rem;
+            color: #74b9ff;
+        }
+
+        .photo-card p {
+            font-size: 1rem;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="experience-container">
+        <div class="experience-header">
+            <h1>My Experience</h1>
+            <p>Explore some of Leah career highlights and projects</p>
+        </div>
+        <div class="photo-grid">
+            <div class="photo-card">
+                <img src="intern.jpg" alt="Experience 1">
+                <h3>Internship</h3>
+                <p>Valuable opportunity for me to gain practical experience, develop professional skills, and explore potential career paths in the company</p>
+            </div>
+            <div class="photo-card">
+                <img src="emcee.jpg" alt="Experience 2">
+                <h3>Emcee</h3>
+                <p>I am responsible for hosting an event, engaging the audience, and ensuring the program runs smoothly from start to finish..</p>
+            </div>
+            <div class="photo-card">
+                <img src="faci.jpg" alt="Experience 3">
+                <h3>Facilitator</h3>
+                <p>Me and my team had to guide and manage a group’s discussion.</p>
+            </div>
+            <div class="photo-card">
+                <img src="sport.jpg" alt="Experience 4">
+                <h3>Friendly Sport</h3>
+                <p>I need to  inspiring others through my dedication and achievements.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
